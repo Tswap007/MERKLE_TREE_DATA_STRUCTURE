@@ -8,7 +8,7 @@ const merkleTree = new MerkleTree(niceList);
 // get the root
 const root = merkleTree.getRoot();
 
-// find the proof that pickleRick is in the list 
+// find the proof that PickleRick is in the list 
 const name = 'MamaMia';
 const index = niceList.findIndex(n => n === name);
 const proof = merkleTree.getProof(index);
