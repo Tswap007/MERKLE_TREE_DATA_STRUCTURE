@@ -8,8 +8,8 @@ There are three folders in this repository:
 
 You can run the client from the top-level directory with `node client/index`. This file is a script which will send an HTTP request to the server.
 
-ThE client Is the _prover_. It ends a proof to the server that some `name` is in the `MERKLE_ROOT` on the server.
-And awaits the severs response if the name is really in the list. Using the MERKLE Proof sent to it. 
+Thee client Is the _prover_. It sends a MERKLE Proof to the server that some `name` is in the `MERKLE_ROOT` on the server.
+And awaits the severs response if the name is really in the list or not and if they qualify for a gift. Using the MERKLE Proof sent to it. 
 
 ## Server
 
