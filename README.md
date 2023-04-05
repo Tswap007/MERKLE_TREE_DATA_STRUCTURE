@@ -1,3 +1,6 @@
+# Info
+The goal of this project is to create a client-server application that allows a client to retrieve a Merkle Proof for a particular name in a list and send it to the server for verification. The server is hardcoded with the Merkle Root of the list, and it uses the proof sent by the client to determine if the name is in the list. This project involves implementing a Merkle Tree structure to efficiently verify that the name is in the list, as well as error handling to ensure that the client provides valid input. The project also includes writing and testing both the client and server code, as well as documentation to ensure that others can understand and use the application.
+
 # Gift List
 
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
